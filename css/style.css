@@ -292,27 +292,27 @@ table th{
 }
 .parent{
   display:flex;
+  flex-direction:row;
   margin-top:100px;
   margin-bottom: 50px;
   position:relative;
-  width:100%;
 }
 .child_img{
-  object-fit:cover;
+  width:50vw;
 }
 .child_img2{
-  object-fit:cover;
+  width:50vw;
 }
 .child_comment{
   position:absolute;
-  left:17%;
+  left:20%;
   top:50%;
   color:white;
   font-size:30px;
 }
 .child_comment2{
   position:absolute;
-  left:60%;
+  left:65%;
   top:50%;
   color:white;
   font-size:30px;
